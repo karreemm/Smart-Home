@@ -18,16 +18,19 @@ This project encompasses a Smart Home System with three distinct modules: Door S
   - RGB LED turns red for 5 seconds.
   - Buzzer sounds twice (0.5 seconds each) with a 0.1-second gap.
 
+  
 2. **Temperature Monitoring Module:**
  - LM35 sensor monitors temperature.
 - RGB LED turns red when temperature exceeds 30 degrees Celsius.
 - LCD displays temperature as "The temp is X", where X is the temperature reading.
+
 
 3. **Motion-Activated Lighting Module:**
 - Ultrasonic sensor detects distance; LDR sensor detects ambient light.
  - When distance < 15cm and low light is detected:
   - Relay activates, turning on a lamp.
  - Lamp remains on until distance > 15cm (indicating user moved away).
+
 
  This Smart Home System ensures enhanced security through password-based door access, proactive temperature monitoring, and efficient lighting management based on motion and lighting conditions.
 
